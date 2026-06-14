@@ -6,9 +6,9 @@ const ChatWindow = () => {
   return (
     <div className='w-[80%] max-h-screen'>
           <Navbar />
-          <div className='w-full h-[94%] border flex flex-col justify-between items-center'>
-              <ChatOutput/>
-              <ChatInput/>
+          <div className='w-full h-[94%] bg-[#000000] flex flex-col justify-between items-center'>
+            <ChatOutput />
+            <ChatInput/>
           </div>
     </div>
   )
